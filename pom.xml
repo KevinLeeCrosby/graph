@@ -1,0 +1,55 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>net.graph</groupId>
+  <artifactId>graph</artifactId>
+  <version>180416.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>graph</name>
+  <description>Graph Theory</description>
+
+  <developers>
+    <developer>
+      <id>kevin</id>
+      <name>Kevin Crosby</name>
+      <email>Kevin.L.Crosby@gmail.com</email>
+      <roles>
+        <role>Senior Software Engineer</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>23.0</version>
+    </dependency>
+  </dependencies>
+
+  <repositories>
+    <!--<repository>-->
+    <!--</repository>-->
+  </repositories>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.7.0</version>
+        <configuration>
+          <!--<heapSize>1g</heapSize>-->
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
