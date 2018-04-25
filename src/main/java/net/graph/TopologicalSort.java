@@ -1,4 +1,4 @@
-package com.resolvity.nlcr.graph;
+package net.graph;
 
 import com.google.common.base.Joiner;
 import com.google.common.collect.Multimap;
